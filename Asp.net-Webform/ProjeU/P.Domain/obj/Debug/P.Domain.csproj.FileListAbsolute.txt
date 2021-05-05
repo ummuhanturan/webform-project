@@ -10,3 +10,9 @@ C:\Users\Mustafa\Documents\GitHub\Asp.net-Webform\ProjeU\P.Domain\obj\Debug\P.Do
 C:\Users\Mustafa\Documents\GitHub\Asp.net-Webform\ProjeU\P.Domain\obj\Debug\P.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Mustafa\Documents\GitHub\Asp.net-Webform\ProjeU\P.Domain\obj\Debug\P.Domain.dll
 C:\Users\Mustafa\Documents\GitHub\Asp.net-Webform\ProjeU\P.Domain\obj\Debug\P.Domain.pdb
+C:\Users\turan\Documents\GitHub\webform-project\Asp.net-Webform\ProjeU\P.Domain\bin\Debug\P.Domain.dll
+C:\Users\turan\Documents\GitHub\webform-project\Asp.net-Webform\ProjeU\P.Domain\bin\Debug\P.Domain.pdb
+C:\Users\turan\Documents\GitHub\webform-project\Asp.net-Webform\ProjeU\P.Domain\obj\Debug\P.Domain.csprojAssemblyReference.cache
+C:\Users\turan\Documents\GitHub\webform-project\Asp.net-Webform\ProjeU\P.Domain\obj\Debug\P.Domain.csproj.CoreCompileInputs.cache
+C:\Users\turan\Documents\GitHub\webform-project\Asp.net-Webform\ProjeU\P.Domain\obj\Debug\P.Domain.dll
+C:\Users\turan\Documents\GitHub\webform-project\Asp.net-Webform\ProjeU\P.Domain\obj\Debug\P.Domain.pdb

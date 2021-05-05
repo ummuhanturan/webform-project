@@ -45,12 +45,12 @@ namespace WebApplication1.Views
 
         protected void Button2_Click1(object sender, EventArgs e)
         {
-            ListBox1.Items.Add(TextBox3.Text);
-            var answer = new WrongAnswer
-            {
-                RightAnswer = TextBox3.Text,
+            //ListBox1.Items.Add(TextBox3.Text);
+            //var answer = new WrongAnswer
+            //{
+            //    RightAnswer = TextBox3.Text,
                 
-            };
+            //};
             
 
         }
