@@ -16,7 +16,8 @@ namespace WebApplication1.Views
 
         protected void btnSınav_Click(object sender, EventArgs e)
         {
-
+            Application["examCode"] = examCode.Text;
+            Response.Redirect("Sınav.aspx");
         }
     }
 }

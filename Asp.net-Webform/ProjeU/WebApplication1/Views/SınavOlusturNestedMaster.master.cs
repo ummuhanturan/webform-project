@@ -34,7 +34,8 @@ namespace WebApplication1.Views
                 {
                     Name = TextBox1.Text,
                     CourseId = course.Id,
-                    TeacherId = teacher.Id
+                    TeacherId = teacher.Id,
+                    examCode = tbSınavKodu.Text
                 };
 
                 _unitOfWork.Exams.Add(exam);

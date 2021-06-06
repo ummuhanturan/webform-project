@@ -60,13 +60,9 @@
     <Compile Include="Concrete\StudentRepository.cs" />
     <Compile Include="Concrete\TeacherRepository.cs" />
     <Compile Include="DatabaseContext.cs" />
-    <Compile Include="Migrations\202105210751341_Initial.cs" />
-    <Compile Include="Migrations\202105210751341_Initial.designer.cs">
-      <DependentUpon>202105210751341_Initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202105281857396_second.cs" />
-    <Compile Include="Migrations\202105281857396_second.designer.cs">
-      <DependentUpon>202105281857396_second.cs</DependentUpon>
+    <Compile Include="Migrations\202106061831049_Initial.cs" />
+    <Compile Include="Migrations\202106061831049_Initial.designer.cs">
+      <DependentUpon>202106061831049_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -83,11 +79,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202105210751341_Initial.resx">
-      <DependentUpon>202105210751341_Initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202105281857396_second.resx">
-      <DependentUpon>202105281857396_second.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202106061831049_Initial.resx">
+      <DependentUpon>202106061831049_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

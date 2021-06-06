@@ -42,6 +42,7 @@ namespace WebApplication1.Views
         {
             int Id = Convert.ToInt32(Application["ExamId"]);
             _unitOfWork.Complete();
+            Response.Redirect("OgretmenAnasayfa.aspx");
         }
     }
 }

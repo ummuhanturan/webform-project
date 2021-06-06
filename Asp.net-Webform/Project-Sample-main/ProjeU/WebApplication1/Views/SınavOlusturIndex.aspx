@@ -1,1 +1,0 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/SınavOlusturNestedMaster.master" AutoEventWireup="true" CodeBehind="SınavOlusturIndex.aspx.cs" Inherits="WebApplication1.Views.SınavOlusturIndex" %>

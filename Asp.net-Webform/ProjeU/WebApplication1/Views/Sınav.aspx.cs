@@ -20,9 +20,10 @@ namespace WebApplication1.Views
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            int examId = Convert.ToInt32(Application["ExamIdT"]);
-            var exam = _unitOfWork.Exams.GetById(examId);
-            foreach(var question in exam.Questions)
+            string examCode = Application["ExamCode"].ToString();
+            var exam = _unitOfWork.Exams.FindT(x => x.examCode == examCode).FirstOrDefault().Id;
+            var questions = _unitOfWork.Questions.FindT(x => x.ExamId == exam).ToList();
+            foreach(var question in questions)
             {
                 if(question.Type == "Klasik")
                 {
@@ -31,14 +32,18 @@ namespace WebApplication1.Views
                 else if(question.Type == "cokluSecmeli")
                 {
                     tbCokluSecmeli.Text = question.Content;
+                    var answers = _unitOfWork.Answers.FindT(x => x.questionId == question.Id).ToList();
                     foreach (var item in question.Answers)
                     {
                         cblCokluSecmeli.Items.Add(item.answerContent);
+
                     }
                 }
                 else if (question.Type == "coktanSecmeli")
                 {
                     tbCoktanSecmeli.Text = question.Content;
+                    var answers = _unitOfWork.Answers.FindT(x => x.questionId == question.Id).ToList();
+                    //var answers = _unitOfWork.Answers.FindT(x => x.Que).ToList();
                     foreach (var item in question.Answers)
                     {
                         rblCoktanSecmeli.Items.Add(item.answerContent);
@@ -47,6 +52,10 @@ namespace WebApplication1.Views
             }
         }
 
-
+        protected void btnComplete_Click(object sender, EventArgs e)
+        {
+            Response.Write("<script>alert('Sınavı başarıyla tamamladınız!')</script>");
+            Response.Redirect("Index.aspx");
+        }
     }
 }

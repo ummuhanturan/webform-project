@@ -34,6 +34,7 @@
             <asp:LinkButton ID="LinkButton1" CssClass="link" runat="server">Ders Ekle</asp:LinkButton>
             <asp:LinkButton ID="LinkButton2" CssClass="link" runat="server">Sınav Oluştur</asp:LinkButton>
             <asp:LinkButton ID="LinkButton3" CssClass="link" runat="server">Sınavlarım</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton4" CssClass="link" runat="server" OnClick="LinkButton4_Click">Sınava Gir</asp:LinkButton>
         </div>
     </form>
 </body>

@@ -9,6 +9,7 @@ namespace P.Domain.Entities
     public class Answer
     {
         public int Id { get; set; }
+        public int questionId { get; set; }
         public string answerContent { get; set; }
         public bool isTrue { get; set; }
     }

@@ -13,5 +13,10 @@ namespace WebApplication1.Views
         {
 
         }
+
+        protected void LinkButton4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("SınavaGir.aspx");
+        }
     }
 }

@@ -56,7 +56,8 @@ namespace WebApplication1.Views
                             var answer = new Answer
                             {
                                 answerContent = ans.ToString(),
-                                isTrue = true
+                                isTrue = true,
+                                questionId = question.Id
                             };
 
                             _unitOfWork.Answers.Add(answer);
@@ -68,7 +69,8 @@ namespace WebApplication1.Views
                             var answer = new Answer
                             {
                                 answerContent = ans.ToString(),
-                                isTrue = false
+                                isTrue = false,
+                                questionId = question.Id
                             };
                             _unitOfWork.Answers.Add(answer);
                             answers.Add(answer);

@@ -12,7 +12,7 @@ namespace P.Domain.Entities
         public int Id { get; set; }
         public int CourseId { get; set; }
         public int TeacherId { get; set; }
-        public Guid examCode { get; set; }
+        public string examCode { get; set; }
         [Required, StringLength(30)]
         public string Name { get; set; } 
         public ICollection<Question> Questions { get; set; }
