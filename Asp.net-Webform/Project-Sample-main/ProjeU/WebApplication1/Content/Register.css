@@ -1,0 +1,27 @@
+﻿
+.card-body {
+    margin: 0 auto;
+    position: absolute;
+    top: 26%;
+    left: 42%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.wrapperT {
+    margin: 0 auto;
+    position: absolute;
+    top: 51%;
+    left: 49%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
